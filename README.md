@@ -3,6 +3,10 @@
 2) Clean the customer dataset
 3) Build a proper data model
 4) Create basic DAX measures  
+    * Customer Signup = COUNT(Customers[CustomerID])
+    * Growing Faster per Region = SUM(Sales[UnitPrice])
+    * Highest Number Customer = COUNT(Customers[CustomerID])
+    * Sale_Count_CustId = COUNT(Sales[CustomerID])
 5) Develop a professional dashboard
 6) Which country has the highest number of customers?
 7) Which region is growing faster?
